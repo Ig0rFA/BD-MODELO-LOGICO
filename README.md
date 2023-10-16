@@ -4,7 +4,7 @@
 /*Observe o modelo conceitual no slide anterior e execute as seguintes etapas:/
 /*Transforme o modelo conceitual em modelo lógico;*(imagem)*/
 
-![exer1]()
+![exer1](https://github.com/Ig0rFA/BD-MODELO-LOGICO/blob/main/ModeloLogico.png)
 
 /*Escreva o script SQL que cria o banco de dados;*/
 
