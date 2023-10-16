@@ -1,7 +1,6 @@
 # BD-MODELO-LOGICO
 ## Descrição
 
-/*Observe o modelo conceitual no slide anterior e execute as seguintes etapas:/
 /*Transforme o modelo conceitual em modelo lógico;*(imagem)*/
 
 ![exer1](https://github.com/Ig0rFA/BD-MODELO-LOGICO/blob/main/ModeloLogico.png)
