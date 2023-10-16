@@ -72,59 +72,59 @@
 /*Tabela Pizza:*/
 
 	INSERT INTO pizza (sabor, preco, descricao, tamanho, ingredientes, receita_pizza_id) 
-	VALUES ('trez queijo',49.90,'pizza saborosa','media','mussarela, provolone, parmesao',1);
+	VALUES ('mussarela',49.90,'explosao de sabores','grande','mussarela',1);
 	INSERT INTO pizza (sabor, preco, descricao, tamanho, ingredientes, receita_pizza_id)
-	VALUES ('Pepperoni', 14.99, 'Pizza de pepperoni saborosa', 'Grande', 'Queijo, molho de tomate, pepperoni', 2);
+	VALUES ('brasileira', 22.99, 'Pizza  estilo brasil', 'grande', 'Queijo, molho de tomate', 2);
 	INSERT INTO pizza (sabor, preco, descricao, tamanho, ingredientes, receita_pizza_id)
-	VALUES ('Margherita', 11.99, 'Uma pizza simples e deliciosa', 'Média', 'Queijo, molho de tomate, manjericão', 3);
+	VALUES ('Margherita', 19.99, 'pizza saudavel', 'pequena', 'Queijo, molho de tomate, ervas', 3);
 	INSERT INTO pizza (sabor, preco, descricao, tamanho, ingredientes, receita_pizza_id)
-	VALUES ('Frango com Catupiry', 13.99, 'Pizza de frango com catupiry cremoso', 'Grande', 'Queijo, molho de tomate, frango desfiado, catupiry', 4);
+	VALUES ('Frango', 17.99, 'Pizza de frango', 'grande', 'Queijo, molho de tomate, frango desfiado', 4);
 	INSERT INTO pizza (sabor, preco, descricao, tamanho, ingredientes, receita_pizza_id)
-	VALUES ('Calabresa', 12.49, 'Pizza de calabresa com toque picante', 'Média', 'Queijo, molho de tomate, calabresa, cebola', 5);
+	VALUES ('Calabresa', 16.49, 'Pizza de calabresa', 'média', 'Queijo, molho de tomate, calabresa', 5);
 
 /*Tabela Pizzaiolo*/
 
 	
 	INSERT INTO pizzaiolo (nome, salario)
-	VALUES ('Tiago Santos', 5000.00);
+	VALUES ('Igor', 3000.00);
 	INSERT INTO pizzaiolo (nome, salario)
-	VALUES ('Maria Clara', 2800.00);
+	VALUES ('Rafael', 2500.00);
 	INSERT INTO pizzaiolo (nome, salario)
-	VALUES ('Luiz Cassio', 1200.00);
+	VALUES ('Fernando', 2000.00);
 
 /*tabela Receita*/
 
 	
 	INSERT INTO receita (instrucao, autor, pizza_id)
-	VALUES ('Misture o molho de tomate com o queijo ralado. Espalhe a mistura sobre a massa da pizza. Adicione as fatias de pepperoni e leve ao forno por 15 	minutos.', 'Chef Ana', 2);
+	VALUES ('espalhe o molho e jogue os ingredientes tais como mussarela e oregano e leve ao forno ate dourar', 'bueno', 2);
 	INSERT INTO receita (instrucao, autor, pizza_id)
-	VALUES ('Espalhe o molho de tomate sobre a massa da pizza. Cubra com queijo mussarela e coloque fatias de tomate e folhas de manjericão. Asse a pizza por 12 	minutos.', 'Chef Carlos', 3);
+	VALUES ('espalhe o molho e jogue os ingredientes tais como mussarela e as ervas e leve ao forno ate dourar', 'jacam', 3);
 	INSERT INTO receita (instrucao, autor, pizza_id)
-	VALUES ('Espalhe o molho de tomate sobre a massa da pizza. Adicione fatias de calabresa e cebola. Leve ao forno por 15 minutos até dourar.', 'Chef Luisa', 5);
+	VALUES ('espalhe o molho e jogue os ingredientes tais como mussarela calabresa e leve ao forno ate dourar', 'paola', 5);
 
 /*Tabela Ingredientes*/
 
 	
 	INSERT INTO ingredientes (descricao)
-	VALUES ('Queijo mussarela');
+	VALUES ('mussarela');
 	INSERT INTO ingredientes (descricao)
-	VALUES ('Molho de tomate');
+	VALUES ('molho de tomate');
 	INSERT INTO ingredientes (descricao)
-	VALUES ('Pepperoni');
-	INSERT INTO ingredientes (descricao)
-	VALUES ('Manjericão');
+	VALUES ('ervas');
 	INSERT INTO ingredientes (descricao)
 	VALUES ('Calabresa');
+	INSERT INTO ingredientes (descricao)
+	VALUES ('frango');
 
 /*Tabela Embalagem*/
 
 
 	INSERT INTO embalagem (material, tamanho, preco, pizza_id)
-	VALUES ('Papelão', 'Pequena', 1.99, 1);
+	VALUES ('papelão', 'Pequena', 3.99, 1);
 	INSERT INTO embalagem (material, tamanho, preco, pizza_id)
-	VALUES ('Papelão', 'Média', 2.99, 2);
+	VALUES ('papelão', 'Média', 4.99, 2);
 	INSERT INTO embalagem (material, tamanho, preco, pizza_id)
-	VALUES ('Papelão', 'Grande', 3.99, 3);
+	VALUES ('papelão', 'Grande', 5.99, 3);
 
 
 /*Crie um relatório com todas as pizzas e os pizzaiolos aptos a produzi-las;*/
